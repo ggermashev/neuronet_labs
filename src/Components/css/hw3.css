@@ -1,0 +1,77 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: black;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.field {
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    position: relative;
+}
+
+svg {
+    height: 100%;
+    width: 100%;
+}
+
+.point {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+}
+
+.run {
+    margin-top: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    border: none;
+    font-size: 1.2em;
+}
+
+.run:hover {
+    background-color: greenyellow;
+}
+
+.choice-btn {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 30px;
+    border: none;
+}
+
+.green-btn {
+    background: green;
+}
+
+.green-btn:hover {
+    background-color: greenyellow;
+}
+
+.red-btn {
+    background-color: darkred;
+}
+
+.red-btn:hover {
+    background-color: red;
+}
